@@ -1,6 +1,7 @@
 
 # This is very old. It's simple, and beautiful.
 # It should be relevant as long as we have python.
+# Some great things have probably been built with a similar ethos.
 
 class Source: 
     

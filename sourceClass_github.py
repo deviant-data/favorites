@@ -1,11 +1,6 @@
 
-
-# This is very old.
-# It's simple, and beautiful.
+# This is very old. It's simple, and beautiful.
 # It should be relevant as long as we have python.
-# Some great things have probably been built with a similar ethos.
-
-
 
 class Source: 
     
@@ -50,23 +45,5 @@ class Source:
         except:
             return None
     
-    def clear(self):
-        try:
-            [delattr(self, i) for i in list(dict(self.all).keys())]
-            self.changeLog = {}
-            self.all = {}
-        except:
-            return None
-    
     def reset(self):
         self.__init__()        
-
-
-
-
-
-
-
-
-
-

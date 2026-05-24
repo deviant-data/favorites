@@ -32,10 +32,10 @@ class Source:
             self.changeLog.pop(str(source))
         except:
             return None
-    # when called:
-        # 1. the relevant source is removed from the internal dict containing all sources (self.all)
-        # 2. the associated attribute is removed
-        # 3. the source's entry is removed from the changeLog
+        # when called:
+            # 1. the relevant source is removed from the internal dict containing all sources (self.all)
+            # 2. the associated attribute is removed
+            # 3. the source's entry is removed from the changeLog
 
     def updateSource(self, source, data):
         try:

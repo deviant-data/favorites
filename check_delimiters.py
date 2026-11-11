@@ -15,7 +15,7 @@ def check_delimiters(input):
         return None
     
     try:
-        for i in [2,3,4,5,6,7,8,9]:
+        for i in range(1,int(len(str(input))),1):
             if str(str(input)[i]) is str(str(input)[int(i*2)+1]):
                 comparisons = list([str(str(input)[k]) for k in range(i,len(str(input)),i+1)])
                 if False not in [
